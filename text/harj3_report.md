@@ -81,6 +81,14 @@ ja muokkasin node.sls-tiedostoa niin, että orja-kone vastaanottaisi kyseisen ti
 	  file.managed:
 	    - source: salt://nodejs/app.js
 
-Ajettuani tilan aktiiviseksi orja-koneelle salt kertoi uuden tiedoston luonnin onnistuneen
+Ajettuani tilan aktiiviseksi orja-koneelle salt kertoi uuden tiedoston luonnin onnistuneen.
 
 ![saltscrshot2](../images/harj3_004_sudosalt.png)
+
+Seuraavaksi kokeilin pyörittääkö nodejs koneelle luodun skriptin komennolla
+
+	master $ sudo salt 'e005' cmd.run 'nodejs /tmp/app.js'
+
+Salt palauttaa sen, minkä halusinkin!
+
+![saltscrshot3](../images/harj3_005_sudosalt.png)
