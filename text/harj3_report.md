@@ -5,3 +5,4 @@ Ajoin aluksi perinteisen **'whoami'** -komennon herra-koneelta testatakseni yhte
 
 	master $ sudo salt 'e005' cmd.run 'whoami'
 
+![whoami screenshot](../images/harj3_001_whoamiprint.png)
