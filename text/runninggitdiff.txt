@@ -1,0 +1,12 @@
+diff --git a/text/harj3_report.md b/text/harj3_report.md
+index 2c9318b..cc5c96c 100644
+--- a/text/harj3_report.md
++++ b/text/harj3_report.md
+@@ -22,5 +22,7 @@ Seuraavaksi työnsin lokiraportin GitHubiin ja linkitin sen tähän raporttiin.
+ 
+ [Linkki lokiraporttiin.](./gitlogprint.txt)
+ 
++Lokiraportti näyttää kulloisenkin commitin hashin, ajan, commitin suorittajan, sekä kommentin
++
+ 
+ 
