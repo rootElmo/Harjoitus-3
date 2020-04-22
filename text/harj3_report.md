@@ -34,4 +34,12 @@ Seuraavaksi kokeilin ajaa komennon
 
 projektin pääkansiossa. Blame näyttää kysytystä tiedostosta rivi kerrallaan sen, kuka sitä on muokannut, sekä siihen liittyvää informaatiota. [Linkki blamen tulosteeseen.](./runninggitblame.txt)
 
+## "Tee tyhmä muutos gittiin, älä tee commit:tia."
 
+Ja näin tein. poistin git-kansiosta images-kansion kokonaan. Tajuttuani virheeni ajoin pikimiten komennon
+
+	elmo $ git reset --hard
+
+ja sain takaisin images-kansioni, kun Gitin tila palautui edelliseen vaiheeseen.
+
+![hardresetsscrshot](../images/harj3_002_gitreset.png)
