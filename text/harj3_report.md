@@ -14,4 +14,6 @@ Olin tähän mennessä tehnyt GitHubiin itselleni uuden repon ja ladannut sinne 
 
 	elmo $ git log > ./text/gitlogprint.txt
 
+[Log print](./gitlogprint.txt)
+
 
