@@ -23,7 +23,9 @@ Seuraavaksi työnsin lokiraportin GitHubiin ja linkitin sen tähän raporttiin.
 [Linkki lokiraporttiin.](./gitlogprint.txt)
 
 Lokiraportti näyttää kulloisenkin commitin hashin, ajan, commitin suorittajan, sekä kommentin. Ajoin edellisen lauseen kirjoitettuani komennon
+
 	elmo $ git diff
-joka näyttää lisäykset tai poistot committien välillä.
+
+joka näyttää lisäykset tai poistot committien välillä. Komento tulisti [seuraavanlaisen raportin](./runninggitdiff.txt)
 
 
