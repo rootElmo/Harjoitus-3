@@ -14,6 +14,13 @@ Olin tähän mennessä tehnyt GitHubiin itselleni uuden repon ja ladannut sinne 
 
 	elmo $ git log > ./text/gitlogprint.txt
 
-[Log print](./gitlogprint.txt)
+Seuraavaksi työnsin lokiraportin GitHubiin ja linkitin sen tähän raporttiin.
+	
+	elmo $ git add . && git commit
+
+	elmo $ git pull && git push
+
+[Linkki lokiraporttiin.](./gitlogprint.txt)
+
 
 
