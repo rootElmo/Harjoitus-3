@@ -1,4 +1,4 @@
 3d7cb300 (the-elmo 2020-04-22 10:27:17 +0300 1) # Palvelinten hallinta harjoitus 3
 fd24ff08 (the-elmo 2020-04-22 10:25:09 +0300 2) Tässä harjoitus 3 markdownina, sekä kaikki harjoitukseen liittyvät tiedostot.
-b6d38bae (the-elmo 2020-04-22 11:29:47 +0300 3) 
+b6d38bae (the-elmo 2020-04-22 11:29:47 +0300 3)
 b6d38bae (the-elmo 2020-04-22 11:29:47 +0300 4) [Linkki itse raporttiin.](/text/harj3_report.md)
