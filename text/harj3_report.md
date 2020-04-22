@@ -43,3 +43,17 @@ Ja näin tein. poistin git-kansiosta images-kansion kokonaan. Tajuttuani virheen
 ja sain takaisin images-kansioni, kun Gitin tila palautui edelliseen vaiheeseen.
 
 ![hardresetsscrshot](../images/harj3_002_gitreset.png)
+
+## "Tee uusi salt-moduli"
+
+Päätin asentaa orja-koneelle nodejs:n Tein modulia varten uuden kansion herra-koneella kohteeseen **/srv/salt**. Loin kansioon sls-tiedoston, joka ajettaessa asentaisi nodejs:n.
+
+	master:/srv/salt/nodejs$ cat node.sls
+	nodejs:
+	  pkg.installed
+
+Seuraavaksi ajoin tilan aktiiviseksi orja-koneella 'e005' ajamalla komennon
+
+	sudo salt 'e005' state.apply nodejs/node
+
+
