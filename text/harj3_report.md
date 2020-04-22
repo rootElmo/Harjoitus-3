@@ -59,7 +59,7 @@ Seuraavaksi ajoin tilan aktiiviseksi orja-koneella 'e005' ajamalla komennon
 
 ![saltscrshot](../images/harj3_003_sudosalt.png)
 
-Salt raportoi nodejs:n asentuneen onnistuneesti orjakoneelle! Seuraavaksi selvitin missä nodejs sijaitsee ajamalla komennon
+Salt raportoi nodejs:n asentuneen onnistuneesti orjakoneelle! Seuraavaksi selvitin missä nodejs sijaitsee ja että onko se olemassa ajamalla komennon
 
 	master $ sudo salt 'e005' cmd.run 'which nodejs'
 
@@ -68,5 +68,17 @@ Salt tulosti seuraavanlaisesti:
 	e005:
 	    /usr/bin/nodejs
 
+Seuraavaksi loin simppelin JS-scriptin "app.js"
+
+	console.log('Hello World!');
+
+ja muokkasin node.sls-tiedostoa niin, että orja-kone vastaanottaisi kyseisen tiedoston.
+	
+	nodejs:
+	  pkg.installed
+
+	/tmp/app.js:
+	  file.managed:
+	    - source: salt://nodejs/app.js
 
 
