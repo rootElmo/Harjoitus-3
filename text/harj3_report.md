@@ -58,6 +58,15 @@ Seuraavaksi ajoin tilan aktiiviseksi orja-koneella 'e005' ajamalla komennon
 
 
 ![saltscrshot](../images/harj3_003_sudosalt.png)
-Salt raportoi nodejs:n asentuneen onnistuneesti orjakoneelle! Seuraavaksi selvitin missä ja mitkä ovat uudet asennetut tiedostot komennolla
 
-	master $ sudo salt 'e005' cmd.run 'find -printf '
+Salt raportoi nodejs:n asentuneen onnistuneesti orjakoneelle! Seuraavaksi selvitin missä nodejs sijaitsee ajamalla komennon
+
+	master $ sudo salt 'e005' cmd.run 'which nodejs'
+
+Salt tulosti seuraavanlaisesti:
+
+	e005:
+	    /usr/bin/nodejs
+
+
+
