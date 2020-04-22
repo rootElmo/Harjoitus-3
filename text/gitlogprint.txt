@@ -1,0 +1,29 @@
+commit 828eef758e9e23da62fd56baad10ceb68b5dad47
+Author: the-elmo <elmo.rohula@myy.haaga-helia.fi>
+Date:   Wed Apr 22 10:40:07 2020 +0300
+
+    Test picture on harj3_report.md
+
+commit 834deaa7977c4c5dcb55a8093d1654838b091f8b
+Author: the-elmo <elmo.rohula@myy.haaga-helia.fi>
+Date:   Wed Apr 22 10:35:38 2020 +0300
+
+    Add text folder and create harj3_report.md
+
+commit 3d7cb300d137d3079abb0a86fb1d1a5ef65731c6
+Author: the-elmo <elmo.rohula@myy.haaga-helia.fi>
+Date:   Wed Apr 22 10:27:17 2020 +0300
+
+    Format README.md
+
+commit fd24ff08a20c40bb03561e8394316c539131477d
+Author: the-elmo <elmo.rohula@myy.haaga-helia.fi>
+Date:   Wed Apr 22 10:25:09 2020 +0300
+
+    Add README.md
+
+commit 2a0cb9b5e28c22be0825958894042b41b6671a98
+Author: the-elmo <elmo.rohula@myy.haaga-helia.fi>
+Date:   Wed Apr 22 10:18:52 2020 +0300
+
+    Add first screenshot
