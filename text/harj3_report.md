@@ -26,6 +26,12 @@ Lokiraportti näyttää kulloisenkin commitin hashin, ajan, commitin suorittajan
 
 	elmo $ git diff
 
-joka näyttää lisäykset tai poistot committien välillä. Komento tulisti [seuraavanlaisen raportin](./runninggitdiff.txt)
+joka näyttää lisäykset tai poistot committien välillä. Komento tulosti [seuraavanlaisen raportin.](./runninggitdiff.txt) Raportista näkyy, että olin kirjoittanut uuden lauseen tähän tiedostoon ja se siksi erosi aikaisemmasta commitista.
+
+Seuraavaksi kokeilin ajaa komennon
+
+	elmo $ git blame README.md
+
+projektin pääkansiossa. Blame näyttää kysytystä tiedostosta rivi kerrallaan sen, kuka sitä on muokannut, sekä siihen liittyvää informaatiota. [Linkki blamen tulosteeseen.](./runninggitblame.txt)
 
 
