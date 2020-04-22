@@ -92,3 +92,11 @@ Seuraavaksi kokeilin pyörittääkö nodejs koneelle luodun skriptin komennolla
 Salt palauttaa sen, minkä halusinkin!
 
 ![saltscrshot3](../images/harj3_005_sudosalt.png)
+
+## Lähteet
+
+Tero Karvinen: http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/,
+
+http://terokarvinen.com/2016/publish-your-project-with-github
+
+Adam Pritchard: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
