@@ -54,6 +54,10 @@ Päätin asentaa orja-koneelle nodejs:n Tein modulia varten uuden kansion herra-
 
 Seuraavaksi ajoin tilan aktiiviseksi orja-koneella 'e005' ajamalla komennon
 
-	sudo salt 'e005' state.apply nodejs/node
+	master $ sudo salt 'e005' state.apply nodejs/node
 
 
+![saltscrshot](../harj3_003_sudosalt.png)
+Salt raportoi nodejs:n asentuneen onnistuneesti orjakoneelle! Seuraavaksi selvitin missä ja mitkä ovat uudet asennetut tiedostot komennolla
+
+	master $ sudo salt 'e005' cmd.run 'find -printf '
